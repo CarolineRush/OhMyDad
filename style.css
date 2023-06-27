@@ -1,0 +1,236 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contenedor {
+    background-color:white;
+    width: 1080px;
+    margin: auto;
+}
+
+/* --------------- HEADER Y NAV ------------- */
+
+header {
+    height: 130px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.logo-box {
+    width: 121px;
+    height: 121px;
+    background-image: url(img/imagotipo7.png);
+    background-repeat: no-repeat;
+    margin: auto;
+    padding: 10px;
+    font-size: 0;
+}
+
+nav {
+    background-color:#7790A8;
+    position: sticky;
+    top:0;
+    height: 70px;
+    text-align: center;
+    border-end-start-radius: 20px;
+    border-end-end-radius: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 40px;
+    padding: 2px;
+}
+
+nav ul li a {
+    color: #1A1E35;
+    font-weight: bolder;
+}
+
+nav ul li a:hover {
+    color: #293D6A;
+    border-bottom: solid 1px #293D6A;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* ------------ SECTION INICIO ----------- */
+
+.inicio-seccion {
+    height: 420px;
+    width: 1080px;
+}
+
+.foto-inicio {
+    margin: 30px 40px 20px 60px;
+    float: left;
+    box-shadow: 5px 5px 5px #7790A8;
+}
+
+.texto-inicio {
+    background-color: #F1A957;
+    padding: 55px 20px 0;
+    width: 400px;
+    height: 180px;
+    font-size: 20px;
+    text-align: center;
+    border: dotted 10px #ED8D20;  
+    margin: 75px 60px 0 30px;
+    float: right;
+}
+
+.texto-inicio em {
+    color: #293D6A;
+}
+
+/* -------------- SECTION BENEFICIOS ------------ */
+
+.beneficios-seccion {
+    height: 570px;
+    width: 1080px;
+    background-color: #1A1E35;
+}
+
+.beneficios-seccion h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 30px;
+    font-variant: small-caps;
+}
+
+.foto-beneficios {
+    padding: 20px 60px 30px 60px;
+    float: left;
+}
+
+.foto-beneficios img {
+    box-shadow: 5px 5px 5px #F1A957;
+}
+
+.texto-beneficios {
+    font-size: 17px;
+    margin: 0 30px 30px;
+    color: white;
+}
+
+.lista-beneficios {
+    font-size: 16px;
+    padding: 0 40px;
+    color: white;
+    list-style-position: inside;
+}
+
+.lista-beneficios em {
+    color: #ED8D20;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 17px ;
+}
+
+/* ------------ SECTION CONTACTO --------- */
+
+.contacto-seccion {
+    width: 1080px;
+    height: 750px;
+}
+
+.contacto-seccion h3 {
+    color: #ED8D20;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 30px;
+    font-variant: small-caps;
+    margin-top: 10px;
+}
+
+.mapa {
+    margin-bottom: 30px;
+}
+
+.contenedor-contacto {
+    display: inline-block;
+    width: 500px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.texto-contacto {
+    font-size: larger;
+    font-style: italic;
+}
+
+.lista-contacto {
+    list-style-type: none;
+}
+
+.lista-contacto a {
+    color: #293D6A;
+}
+
+.lista-contacto a:hover {
+    color: #F1A957;
+}
+
+.lista-contacto img {
+    margin: auto;
+}
+
+address {
+    color: #293D6A;
+}
+
+.contenedor-rrss {
+    float: right;
+    width: 500px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.texto-rrss {
+    font-size: larger;
+    font-style: italic;
+}
+
+.lista-rrss {
+    list-style-type: none;
+    margin: auto;
+    padding: 90px 0 0;
+    width: 400px;
+}
+
+.lista-rrss li {
+    display: inline-block;
+    margin: 0 5px; 
+    padding: 0 10px ;
+}
+
+/* --------------- FOOTER -------------- */
+
+footer {
+    background-color:#ED8D20;
+    font-variant: small-caps;
+    height: 70px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-top: 30px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: #1A1E35;
+}
+
+footer p a:hover {
+    color: #F1A957;
+}
